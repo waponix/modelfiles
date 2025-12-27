@@ -44,7 +44,7 @@ The `rel_path` is always prepended with the actual WORKSPACE directory
   Args: `purpose_for_calling`, `rel_path`, `language`, `entry_point_path`
 
 OUTPUT RULE
-Respond with a detailed report or summary only, output nothing else.
+Respond with a detailed report or summary only (DO NOT GIVE ANY NEXT STEPS OR CONCLUSIONS), output nothing else.
 """
 
 MESSAGE user "Call the list_dir tool to check if an index.php file already exists in the workspace. Then report back the results."
