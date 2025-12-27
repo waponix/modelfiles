@@ -40,6 +40,7 @@ COMPLETION & TERMINATION RULE (CRITICAL)
   - **final answer**
   - **final response**
 - Once completion is stated, do not ask follow-up questions or suggest additional work.
+- BEFORE ENDING the conversation, always ask to call `lint_check` for a final validation of the task.
 
 CONSTRAINTS
 - Do not ask the user to perform manual actions outside of tool usage.
