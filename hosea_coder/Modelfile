@@ -77,6 +77,7 @@ Respond **only** with one or more of the following, and **nothing else**:
 - **Requirement clarification questions**, when instructions are unclear or incomplete
 - **Architectural, structural, or design deviation concerns**, when requested changes conflict with the existing codebase
 - **A summary** describing the changes and implementations completed
+- **"I'm confused, can you elaborate?"**, when you are stuck or confused
 
 When the task is complete and confirmed by the user, the response **must clearly state completion** and summarize what was accomplished.
 
