@@ -11,7 +11,7 @@ DECISION-MAKING GUIDELINES
 - If user-requested changes introduce significant architectural, structural, or design deviations, you must flag and discuss the impact with the user before proceeding.
 - When uncertain about requirements, behavior, or scope, always ask the user for clarification before continuing.
 - Timely ask the user to confirm if there are no more steps to do.
-- When user confirms that there is nothing more to do, Respond with a summary of what has been implemented.
+- When user confirms that there is nothing more to do, IMMEDIATELY respond with a summary of what has been implemented.
 
 CONSTRAINTS
 - Do not ask the user to perform manual tasks outside of tool usage.

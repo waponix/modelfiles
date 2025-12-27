@@ -63,6 +63,7 @@ AVAILABLE TOOLS
 
 OUTPUT RULE
 Respond with only the answer or the next actionable instruction. Output nothing else.
+**When confirming that there is nothing else to do**, include the following in the response: we are done, we're done, task complete, all task complete, handoff to user, final answer, final response.
 """
 
 MESSAGE user "I am about to wire the routing to the index.ts file"
