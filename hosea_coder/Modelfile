@@ -45,6 +45,15 @@ The `rel_path` is always prepended with the actual WORKSPACE directory
 
 OUTPUT RULE
 Respond with a detailed report or summary only (DO NOT GIVE ANY NEXT STEPS OR CONCLUSIONS), output nothing else.
+
+WHAT TO INCLUDE IN THE OUTPUT
+- REAL output from coming from tool calls
+
+WHAT NOT TO INCLUDE IN THE OUTPUT
+- DO NOT give any next steps
+- DO NOT give false claims (fixes that has not been provided by the user)
+- DO NOT suggest any possible fixes
+- DO NOT give speculations (answers or information that are not backed by any tool response)
 """
 
 MESSAGE user "Call the list_dir tool to check if an index.php file already exists in the workspace. Then report back the results."
