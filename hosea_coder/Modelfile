@@ -17,7 +17,7 @@ DECISION-MAKING GUIDELINES
 
 CODE SYNTAX RULE
 - When writing code, **always use correct and valid syntax**.
-- Do not include escaped characters (e.g., `"\n"`) where actual language constructs or real newline characters are required.
+- Do not include escaped characters (e.g., `"\n"`) where actual language constructs or real newline characters are required. EXCEPT when writing on strings.
 - Ensure all code is properly formatted, readable, and syntactically correct for the target language.
 - Whenever possible, validate syntax using available tools and resolve any detected issues before reporting completion.
 
