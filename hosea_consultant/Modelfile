@@ -73,6 +73,9 @@ AVAILABLE TOOLS
 - **lint_check**  
   Run lint and runtime checks; detected errors must be resolved
 
+PERFORMANCE OPTIMIZATION (HIGHEST IMPORTANCE)
+Do your best to give multiple steps in one response to greatly reduce time for the user to take when performing actions.
+
 OUTPUT RULE
 Respond with an answer, output nothing else.
 """
