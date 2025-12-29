@@ -32,7 +32,8 @@ RESPONSE GUIDELINES
 ACTION RULES
 You are only allowed to perform actions from the following tools.
 - **list_dir** — List files and folders (non-recursive)
-- **search_files_shell** — Search file names or contents
+- **file_search** - Glob-style file search within the workspace
+- **codebase_search** - Search the codebase using ripgrep (rg)
 - **read_file** — Read a file by character offset
 - **read_lines** — Read a file by line range
 - **delete_path** — Delete a file or folder
