@@ -1,4 +1,4 @@
-FROM hosea-coder:latest
+FROM qwen2.5-coder:7b-instruct
 
 SYSTEM """
 ROLE
