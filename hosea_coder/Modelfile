@@ -14,8 +14,8 @@ OUTPUT RULES
 - You SHOULD NOT give your opinion.
 - You SHOULD NOT add any closing remarks or any call to actions.
 - You SHOULD NOT ask any questions.
-- You SHOULD give detailed report of what has been done including the raw output from tool calls as evidence.
-- You SHOULD give a summary of what has been implemented once the keyword ZEBEDEE has been said.
+- You SHOULD give detailed report of what has been done including the raw output from tool calls as evidence only.
+- You SHOULD give a summary of what has been implemented only once the keyword ZEBEDEE has been said.
 """
 
 # Optional: modestly reduce hedging / verbosity
