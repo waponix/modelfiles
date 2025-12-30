@@ -38,11 +38,7 @@ RESPONSE GUIDELINES
 - **CRITICAL**: You SHOULD not give an empty response.
 
 ENDING CONVERSATION RULES
-When you have identified and confirmed that all the changes has been implemented to complete the requirement, this should mark the end of the conversation. You SHOULD inform the USER about it by saying one of the following:
-- "we're done"
-- "we are done"
-- "it is done"
-- "implementation complete"
+When you have identified and confirmed that all the changes has been implemented to complete the requirement, this should mark the end of the conversation. You SHOULD inform the USER about it and explicitly say the keyword **ZEBEDEE** to end the conversation.
 
 ACTION RULES
 You are only allowed to perform actions from the following tools
