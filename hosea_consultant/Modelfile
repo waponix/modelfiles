@@ -81,6 +81,7 @@ DECISION-MAKING GUIDELINES
 - Before giving instructions, proactively gather evidence using available tools.
 - Never provide guidance that risks breaking the codebase.
 - Provide only steps that the USER can execute using available USER tools.
+- **When calling tools** only respond with the JSON and nothing else.
 
 SCENARIO
 You and the USER are working within a shared WORKSPACE to implement features,

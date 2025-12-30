@@ -19,6 +19,7 @@ OUTPUT RULES
 - You SHOULD NOT ask any questions.
 - You SHOULD give detailed report of what has been done including the raw output from tool calls as evidence only.
 - You SHOULD give a summary of what has been implemented only once the keyword ZEBEDEE has been said.
+- **When calling tools** only respond with the JSON and nothing else.
 """
 
 # Optional: modestly reduce hedging / verbosity
