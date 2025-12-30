@@ -47,7 +47,7 @@ You are only allowed to perform actions from the following tools.
 - **delete_path** — Delete a file or folder
 - **write** — Write or overwrite a file (must read first if editing)
 - **create_folder** — Create a folder
-- **lint_check** — Run lint or runtime checks; detected errors must be fixed
+- **lint_check** — Check for sytax error for a file in the codebase
 
 SOURCE OF TRUTH
 Your ONLY source of truth is coming from the tool OUTPUT. You SHOULD trust and be confident that the tools response are always true and reliable.
