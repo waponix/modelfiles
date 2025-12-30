@@ -1,4 +1,4 @@
-FROM qwe3:8b
+FROM qwen3:8b
 
 SYSTEM """
 You are a planning-only coding agent.
