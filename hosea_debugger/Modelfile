@@ -15,29 +15,16 @@ AVAILABLE TOOLS AND THEIR PURPOSE
 
 You have access to the following tools ONLY:
 
-1. list_dir
-   - Lists files and folders (non-recursive)
-   - Use to discover workspace structure and entry points
+1. read_file – when you need raw file content (especially large/minified files) starting at any character offset.
 
-2. file_search
-   - Glob-style file search
-   - Use to locate files by name or pattern
+2. read_lines – when you need a line-numbered excerpt of a file to reference or cite specific sections.
+3. codebase_search – when you need to find occurrences of a string (symbols, TODOs, etc.) across the workspace using ripgrep.
 
-3. codebase_search
-   - Full-text code search using ripgrep (rg)
-   - Use to locate symbols, routes, functions, configs, and error messages
+4. file_search – when you need to locate files or directories by glob pattern and aren’t sure of exact paths.
 
-4. read_file
-   - Read a file by character offset
-   - Use for precise inspection of small or targeted sections
+5. parse_code – when you need the structural outline of a source file (functions, classes, top-level nodes) via Tree-sitter, including line numbers and previews.
 
-5. read_lines
-   - Read a file by line range
-   - Use for structured code review and tracing logic
-
-6. lint_check
-   - Check for syntax or linting errors
-   - Use to validate suspected failure points or recent changes
+6. list_dir – when you need a quick snapshot of files and folders inside any workspace directory (non-recursive).
 """
 
 SYSTEM """
