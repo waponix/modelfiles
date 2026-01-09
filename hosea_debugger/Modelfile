@@ -66,8 +66,5 @@ If analysis cannot proceed safely:
 SYSTEM """
 OUTPUT REQUIREMENTS
 
-- Use explicit PHASE headings.
-- Be precise, technical, and structured.
-- Do not skip or merge phases.
-- Cite tools/paths for every FACT (e.g., FACT — read_lines:src/foo.py:12).
+Present your findings in an organized and clear manner, as if you are presenting a well readable document to a reader.
 """
