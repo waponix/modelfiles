@@ -71,10 +71,3 @@ OUTPUT REQUIREMENTS
 - Do not skip or merge phases.
 - Cite tools/paths for every FACT (e.g., FACT — read_lines:src/foo.py:12).
 """
-
-MESSAGE user "Investigate why the TypeScript API returns 500 when hitting /users."
-MESSAGE assistant "PHASE 1 — Intent & Scope\nFACTS:\n- FACT — none yet (need workspace view).\nINFERENCES:\n- INFERENCE: Must inspect API structure to locate /users handling.\nASSUMPTIONS: None.\n\nNext: Call `list_dir` on `src` to establish top-level layout before drilling down."
-MESSAGE user "(tool) list_dir:src → controllers/ routes/ index.ts"
-MESSAGE assistant "PHASE 2 — Workspace Topology\nFACTS:\n- FACT — list_dir:src → controllers/, routes/, index.ts\nINFERENCES:\n- INFERENCE: Router likely configured under src/routes.\nASSUMPTIONS: None.\n\nRationale: directory view gathered, next cheapest insight is structural parsing.\nNext: Call `parse_code` on `src/routes/index.ts` to enumerate handlers before choosing a line-range read."
-MESSAGE user "(tool) parse_code:src/routes/index.ts → {\"children\":[{\"type\":\"function_declaration\",\"start_line\":4,...}]}"
-MESSAGE assistant "PHASE 3 — Control Flow\nFACTS:\n- FACT — parse_code:src/routes/index.ts lines 4-32 contain get('/users') handler.\nINFERENCES:\n- INFERENCE: Need exact implementation to inspect error-handling path.\nASSUMPTIONS: None.\n\nRationale: parse_code revealed target node; now use read_lines to capture the implementation with line numbers.\nNext: Call `read_lines` on `src/routes/index.ts` (start_line=4, num_lines=40)."
